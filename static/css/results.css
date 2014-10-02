@@ -1,0 +1,58 @@
+body { 
+	background: url("../../static/imgs/palms.jpg");  
+	background-size: cover; }
+.rating-box { 
+	background: rgb(255, 255, 255); 
+	border: 2px solid rgba(0, 0, 0, 1); 
+	border-radius: 0px; 
+	height: 20px; 
+	margin: 3px;}
+.rating { 
+	background: rgb(80, 121, 152); }
+.rating-text { 
+	color: black; 
+	font-weight: bold; }
+.well-sm { 
+	background:white; 
+	border: 0px}
+h4 { 
+	font-weight: bold; }
+#table-scroll { 
+	background-color: white; 
+	height: 530px;
+	overflow: scroll;
+	overflow-x: hidden;}
+.progress-bar-divider {
+	background-image: none;
+	background-color: grey; }
+.progress-bar-hidden {
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+			box-shadow: none; }
+.progress-nomargin { 
+	margin: 10px; }
+.label-primary {
+	background-color: rgb(80, 121, 152); }
+.compare {
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 30px; }
+.sharp {
+	border-radius: 0px;}
+#map_canvas {
+	width: 1170px;
+	height: 283px;
+	position:absolute; 
+	z-index: 0;
+	opacity: .5; }
+.mapoverlay { 
+	z-index: 10;
+	}
+.sentiment {
+	visibility: hidden; 
+	font-size: 1px;
+	}
+.modal-text {
+	font-size: 15px
+	}

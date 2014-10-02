@@ -1,0 +1,28 @@
+body {
+	overflow: hidden
+}
+#googlemaps { 
+	padding-top: 50px;
+	height: 100%; 
+	width: 100%; 
+	position:absolute; 
+	left: 0; 
+	z-index: 0;
+	}
+
+.blurb { 
+	font-size: 18px;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 1.95;
+	}
+
+.mapoverlay { 
+	position: relative; 
+	z-index: 1;
+	padding: 1px;
+	background: black;
+	height: auto;
+	opacity: .7;
+	color: white;
+	}
